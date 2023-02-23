@@ -41,7 +41,7 @@ app.post("/",(req,res)=>{
     let url = "https://us8.api.mailchimp.com/3.0/lists/edd4c1ba55";
     const options = {
         method:"POST",
-        auth: "Bijender:bfbb9af15ee82fb7ac03aa0c7f3756bcc-us8"
+        auth: "Bijender:fbb9af15ee82fb7ac03aa0c7f3756bcc-us8"
     }
     const request = https.request(url,options,(response)=>{
         let status = response.statusCode;
